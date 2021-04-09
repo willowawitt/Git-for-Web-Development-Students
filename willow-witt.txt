@@ -1,0 +1,47 @@
+https://codepen.io/willowawitt/pen/YzNELwG
+
+    1. What is Semantic HTML? It describes its meaning to both the browser and the developer.
+    2. What is HTML used for? As a blueprint for you to build your page
+    3. What is an attribute and where do we put it? A descriptor to be added to a tag. I.E. <img> tag and <src=""> attribute
+    4. What is the h1 tag used for? How many times should I use it on a page? The largest header, only once.
+    5. Name two tags that have required attributes <a href=""> and <img src="">
+    6. What do we put in the head of our HTML document? <!DOCTYPE>
+    7. What is an id? Used to describe a single element in the code.
+    8. What elements can I add an id to? Img, body, etc.
+    9. How many times can I use the same id on a page? more then once
+    10. What is a class? A descriptor for what is encloused in it.
+    11. What elements can I add a class to? Img, text, etc.
+    12. How many times can I use the same class on a page? You can use it multiple times.
+    13. How do I get my link to open in a new tab? <a href="link" target="_blank">
+    14. What is the alt attribute in the image tag used for? To describe an image for text-based users.
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div A section encloses everything in it, a div has no real meaning.
+    17. What is CSS used for? Stylizing your page so it is pleasing to the eye and easier to navigate
+    18. How to we select an element? Example - every h2 on the page h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one An id is used to define one single element, while a class can cover multiple.   
+    20. How do we select classes in CSS? .classname
+    21. How do we select a p element with a single class of “human””? [class="human"]
+    22. What is a parent child selector? When would this be useful? It encompasses everything within a section or class
+    23. How do you select all links within a div with the class of sidebar? a{ }
+    24. What is a pseudo selector? It only selects certain things
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: (capitalize, lowercase, uppercase);
+    28. How do I add a 1px border around my div that is dotted and black? border:1px dotted:(black hex coded here);
+    29. How do I select everything on the page? *{}
+    30. How do I write a comment in CSS? /* comment here */
+    31. How do I find out what file I am in, when I am using the command line? pwd 
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls or ls -al
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm or rs, and because it will delete the file for good.
+    34. Why should I use version control? To make easier access for the team I work with to review my/their code.
+    35. How often should I commit to github? After each change
+    36. What is the command we would use to push our repo up to github? push 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? block is multiple. inline is singular
+    2. What happens when an element is positioned absolutely? it is it's own layer, no longeer a part of the main document
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? margin
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default <p> <h1-h6> <hr>, <img> <a>, <div> <span>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? It creates a border that allows spacing between each section.
